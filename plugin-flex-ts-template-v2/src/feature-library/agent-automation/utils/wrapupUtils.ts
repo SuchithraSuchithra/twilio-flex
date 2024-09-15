@@ -68,7 +68,7 @@ export const setAutoCompleteTimeout = async (
   }
 
   try {
-    logger.info(`[agent-automation] Setting auto-wrapup timer for ${sid}`);
+    logger.info(`[agent-automation] Wrap up - Setting auto-wrapup timer for ${sid}`);
     let wrapTimer: number;
 
     // Subscribe to redux updates if we need to handle extended wrapup
